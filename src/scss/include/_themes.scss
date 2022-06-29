@@ -1,0 +1,27 @@
+
+footer {
+	// background: orange;
+	// border: none;
+
+	.poweredby {
+		opacity: .1;
+	}
+}
+
+
+.theme-codan {
+	--bs-primary-rgb: 5, 15, 170;
+	// --bs-primary: #050faa;
+	--bs-body-font-family: Arial, sans-serif;
+	
+	
+	footer {
+		border-color: transparent;
+		// @extend .d-none;
+		// background: cyan;
+		
+		.poweredby {
+			opacity: 1;
+		}
+	}
+}

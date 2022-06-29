@@ -1,0 +1,122 @@
+html {
+	height: 100%;
+}
+
+
+
+body {
+	@extend .d-flex, .flex-column;
+	-webkit-font-smoothing: antialiased;
+	
+	flex: 1;
+	height: auto;
+	min-height: 100%;
+}
+
+
+
+main {
+	@extend .d-flex, .flex-column;
+	flex: 1;
+
+	height: auto;
+	min-height: 100%;
+    padding-top: 85px;
+
+
+	@include media-breakpoint-up(lg) {
+		padding-bottom: 100px;
+	}
+	
+	// @if ($sos-styling) {
+	// 	border-bottom: 8px solid $color-sos;
+	// }
+	
+}
+
+
+
+
+
+
+section {
+	@extend .container-xxl;
+}
+
+
+
+.progress {
+	height: 8px;
+}
+
+.fillscreen {
+	@extend .d-flex, .flex-column, .mb-4, .flex-grow-1;
+		
+	&__bottom {
+		@extend .d-lg-flex, .align-items-end, .flex-grow-1, .flex-lg-grow-0;
+	}
+}
+
+.column {
+	@extend .col-lg-8;
+	// @extend .test;
+}
+
+
+
+a {
+	text-underline-offset: .2em;
+	text-decoration-thickness: .08em;
+}
+
+.bi {
+	vertical-align: -0.2em;
+	height: 1em;
+	width: 1em;
+}
+
+
+
+
+.btn {
+	min-width: 11ch;
+
+	&-primary {
+		// background: $color-primary;
+		background: var(--bs-primary);
+	}
+}
+
+
+
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Old versions of Firefox */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
+
+
+img {
+	@extend .d-block, .w-100;
+	height: auto;
+}
+
+
+
+
+.section {
+	@include container;
+}
+
+
+
+
+
+
+
+.test {outline: 1px solid red;}

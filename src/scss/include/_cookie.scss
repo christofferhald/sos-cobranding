@@ -1,0 +1,28 @@
+.cookie-info-open {
+	@extend .d-none;
+	
+	position: relative;
+	bottom: 10px;
+	right: 20px;
+
+	width: 100px;
+
+
+	left: 20px;
+    bottom: 0;
+    border: none;
+    background-color: #e1002c;
+    font-size: 12px;
+    line-height: 26px;
+    border-radius: 1px 1px 0 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    // position: fixed;
+    opacity: .6;
+    cursor: pointer;
+    will-change: transform;
+    z-index: 999;
+    color: #fff;
+    padding: 0 10px;
+
+}

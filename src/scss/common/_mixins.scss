@@ -1,0 +1,25 @@
+// --------------------------------------------------
+// Mixins
+// --------------------------------------------------
+
+@mixin container {
+	// @extend .container-xxl;
+	@extend .container-xxl;
+
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+
+	
+}
+
+
+
+
+@mixin row {
+	@extend .row;
+	@extend .mx-0;
+	
+
+	// margin-right: calc(var(--bs-gutter-x) / 2);
+    // margin-left: calc(var(--bs-gutter-x) / 2);
+}

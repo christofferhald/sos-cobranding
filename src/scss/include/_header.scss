@@ -1,0 +1,21 @@
+header {
+	@extend .bg-light, .fixed-top;
+	padding: 5px 0;
+	box-shadow: 0 0 6px 0 rgba(black, 6/100);
+
+	.logo {
+		display: flex;
+		width: 180px;  /*width of parent container*/
+		height: 50px; /*height of parent container*/
+		// background: orange;
+
+
+		img {
+			max-width:100%;
+  			max-height:100%;
+  			width: auto;
+  			height: auto;
+		}
+	}
+}
+
